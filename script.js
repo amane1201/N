@@ -22,7 +22,7 @@ var MEMBERS_DATA = [
     color:"#00e0ff",
     img:"assets/members/みとうと.png"
   }
-];
+]
 
 var NEWS_DATA = [
   {
