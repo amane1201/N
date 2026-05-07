@@ -2,14 +2,37 @@
 'use strict';
 
 var MEMBERS_DATA = [
-  { id:"001", name:"やまだ", title_ja:"総統", title_en:"Führer", role:"president", description:"N帝国の創設者、指導者。", color:"#00e0ff", img:"assets/members/やまだ.png" },
-];
-  { id:"002", name:"みとうと", title_ja:"執権", title_en:"Behörde", role:"authority", description:"総統の代わりに動く", color:"#00e0ff", img:"assets/members/みとうと.png" },
+  {
+    id:"001",
+    name:"やまだ",
+    title_ja:"総統",
+    title_en:"Führer",
+    role:"president",
+    description:"N帝国の創設者、指導者。",
+    color:"#00e0ff",
+    img:"assets/members/やまだ.png"
+  },
+  {
+    id:"002",
+    name:"みとうと",
+    title_ja:"執権",
+    title_en:"Behörde",
+    role:"authority",
+    description:"総統の代わりに動く",
+    color:"#00e0ff",
+    img:"assets/members/みとうと.png"
+  }
 ];
 
 var NEWS_DATA = [
-  { date:"2026-05-04", title:"帝国樹立", content:"N帝国の創設者であるやまだが、新たな国家の誕生を宣言しました。" },
+  {
+    date:"2026-05-04",
+    title:"帝国樹立",
+    content:"N帝国の創設者であるやまだが、新たな国家の誕生を宣言しました。"
+  },
 ];
+
+})();
 
 var allNews = NEWS_DATA.slice();
 var newsDisplayCount = 5;
