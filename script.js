@@ -22,7 +22,7 @@ var MEMBERS_DATA = [
     color:"#00e0ff",
     img:"assets/members/みとうと.png"
   }
-]
+];
 
 var NEWS_DATA = [
   {
@@ -31,8 +31,6 @@ var NEWS_DATA = [
     content:"N帝国の創設者であるやまだが、新たな国家の誕生を宣言しました。"
   },
 ];
-
-})();
 
 var allNews = NEWS_DATA.slice();
 var newsDisplayCount = 5;
@@ -514,6 +512,10 @@ function initSmoothScroll(){
   });
 }
 
+function initFakeToasts(){
+  // 必要に応じて実装してください
+}
+
 document.addEventListener('DOMContentLoaded', function(){
   initParticles();
   initHeader();
@@ -536,4 +538,6 @@ document.addEventListener('DOMContentLoaded', function(){
     initGlitchScramble();
     observeReveals();
   });
+});
+
 })();
